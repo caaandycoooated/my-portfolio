@@ -60,7 +60,7 @@
 }
 
 .self-job {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .self-description {
@@ -75,51 +75,84 @@
 }
 
 .self-intro {
-  width: 75%;
   margin: 0 auto;
   padding-top: 30px;
-  padding-bottom: 350px;
+  padding-bottom: 250px;
   font-size: 20px;
 }
 
-.services-container {
-  margin-top: -250px;
+.information-container {
+  margin-top: -140px;
 }
 
-.services-circle {
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  line-height: 128px;
-  text-align: center;
-  font-size: 50px;
-  color: #FFFFFF;
-  background: #205375;
-}
-
-.services-title {
+.information-title {
   padding-top: 30px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
 }
 
-.services-description {
+.information-description {
   margin-top: 10px;
   padding: 0 80px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.skills-title {
+.experience-container {
+  margin-bottom: 90px;
+}
+
+.experience-title {
   margin-top: 75px;
   font-size: 35px;
 }
 
+.experience-description {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.experience-job-title {
+  font-size: 20px;
+}
+
+.experience-job-workplace {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.experience-job-address {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.experience-job-date {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.experience-job-description {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: justify;;
+}
+
+.experience-job-description li {
+  margin-top: 10px;
+}
+
+.skills-container {
+  padding-bottom: 100px;
+}
+
+.skills-title {
+  padding-top: 70px;
+  font-size: 35px;
+}
+
 .skills-description {
-  width: 75%;
   margin: 0 auto;
   font-weight: bold;
   font-size: 20px;
@@ -135,125 +168,130 @@
 }
 
 .skills-item {
-  margin: 100px 0;
-  padding: 2px 20px;
+  margin-top: 10px;
+  padding: 10px 20px;
   font-weight: bold;
-  font-size: 15px;
-  border: 1px solid #000000;
-  border-radius: 5px;
+  font-size: 18px;
 }
 
 .project-container {
-  margin-top: 60px;
-  padding-bottom: 160px;
+  margin-top: 70px;
+  padding-bottom: 50px;
 }
 
 .project-title {
-  margin-top: 125px;
-  padding-top: 125px;
   font-size: 35px;
 }
 
 .project-description {
-  width: 75%;
   margin: 0 auto;
   font-weight: bold;
   font-size: 20px;
 }
 
-.work-container {
-  margin-top: 60px;
-  margin-bottom: 250px;
+.project-logo {
+  margin-top: 25px;
+  width: 125px;
+  height: 125px;
 }
 
-.work-title {
-  margin-top: 125px;
-  font-size: 35px;
-}
-
-.work-description {
-  width: 75%;
-  margin: 0 auto;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.content {
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-
-.content .content-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  border-radius: 5px;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-  background: rgba(0,0,0,0.7);
-}
-
-.content:hover .content-overlay {
-  opacity: 1;
-}
-
-.content-image {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.content-details {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  text-align: center;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.content:hover .content-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-
-.content-title {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.content-subtitle {
+.project-name {
+  margin-top: 25px;
   font-weight: bold;
   font-size: 25px;
 }
 
-.content-description {
+.project-label {
+  margin-top: 15px;
+  font-weight: bold;
   font-size: 20px;
 }
 
-.fadeIn-bottom{
-  top: 80%;
+.project-feature {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.large-padding {
-  padding-bottom: 250px;
+.project-feature-list {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  columns: 2;
+}
+
+.project-feature-list li {
+  margin-top: 5px;
+}
+
+.project-screenshot {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project-screenshot-item {
+  padding-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-container {
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+
+.portfolio-title {
+  padding-top: 70px;
+  font-size: 35px;
+}
+
+.portfolio-description {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.portfolio-screenshot-item {
+  padding-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.clients-container {
+  margin-top: 70px;
+  padding-bottom: 200px;
+}
+
+.clients-title {
+  font-size: 35px;
+}
+
+.clients-description {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.clients-logo {
+  margin-top: 25px;
+  width: 500px;
+}
+
+.clients-name {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.clients-link {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .contacts-container {
-  margin-top: -670px;
+  margin-top: -630px;
 }
 
 .contacts-title {
@@ -270,7 +308,7 @@
 .contacts-logo {
   width: 256px;
   height: 256px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .footer-quote {
@@ -282,21 +320,4 @@
   margin-top: 50px;
   padding-bottom: 50px;
   font-size: 15px;
-}
-
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateY(3em);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-up {
-  animation: fade-up 4s cubic-bezier(.05,.98,.17,.97) forwards;
-  opacity: 0;
-  animation-delay: 1s;
 }
